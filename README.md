@@ -76,3 +76,23 @@ Adjust HSV values and camera exposure in `consts.py` for your specific environme
 * Designed for high school robotics competitions
 * Works best under consistent lighting conditions
 * Scripts are modular: you can combine functions to create a custom vision pipeline
+
+---
+
+## Crazy Eyes: Face and Eye Overlay
+
+This repository also includes a **fun real-time face and eye manipulation script**, designed as an experimental exercise in computer vision:
+
+- **Detects faces and eyes** using Haar cascades (`haarcascade_frontalface_default.xml` and `haarcascade_eye.xml`)  
+- **Switches eyes** between detected faces in real-time  
+- **Optional framing** around faces and eyes to visualize detection  
+- Provides a **live GUI** with instructions displayed at the bottom of the window  
+
+**Controls while running:**
+
+- `Space`: Show / hide switched eyes  
+- `Esc`: Exit the program  
+- `1`: Toggle framing around faces and eyes  
+
+
+It complements the robotics vision scripts by showing how object detection and manipulation can be applied to different types of targets (faces/eyes) beyond competition objects.
